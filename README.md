@@ -26,7 +26,7 @@ arm[TAB][TAB]   #检查是否安装arm-linux-gcc成功
 ## 系统功能模块设计
 
 #### 整体流程图：
-![project](./asserts/project_framework.png)
+![project](./assets/project_framework.png)
 
 ### 一、数据采集模块
 
@@ -36,7 +36,7 @@ arm[TAB][TAB]   #检查是否安装arm-linux-gcc成功
     -  通过图像检测到物体出现/消失时，向上位机上传图片，否则只在下位机本地存储  
     - 在下位机 GUI 上设置报警控件，如果检测到物体出现/消失则变色
 
-![project](./asserts/lower.png)
+![project](./assets/lower.png)
 
 ### 二、数据通讯模块
 
@@ -46,7 +46,7 @@ arm[TAB][TAB]   #检查是否安装arm-linux-gcc成功
   - 下位机收到要求反馈的信息后，反馈到上位机
   - 上位机设置接收下位机反馈的超时时长，如果连续三次在时长内没有收到来自下位机的反馈信息，则在上位机的 GUI 上呈现通讯故障的提示信息
 
-![project](./asserts/data_communication.jpg)
+![project](./assets/data_communication.jpg)
 
 
 ### 三、本地监控界面
@@ -61,7 +61,7 @@ arm[TAB][TAB]   #检查是否安装arm-linux-gcc成功
     - 可以通过 GUI 呈现登录失败信息
   - 用于输入密码的软键盘
 
-![project](./asserts/monitoring.png)
+![project](./assets/monitoring.png)
 
 ### 四、上位机监控界面
 
@@ -74,21 +74,21 @@ arm[TAB][TAB]   #检查是否安装arm-linux-gcc成功
   - 上位机的登录界面
   - 支持下位机的用户管理功能，包括用户添加、删除、修改密码
 
-![project](./asserts/upper.png)
+![project](./assets/upper.png)
 
 
 ## 结果显示
 #### 1.登陆界面
-![project](./asserts/login.png)
+![project](./assets/login.png)
 
 #### 2.下位机界面
-![project](./asserts/lower_ui.png)
+![project](./assets/lower_ui.png)
 
 #### 3.动态图像监测
-![project](./asserts/monitoring_ui.png)
+![project](./assets/monitoring_ui.png)
 
 #### 4.上位机界面
-![project](./asserts/upper_ui.png)
+![project](./assets/upper_ui.png)
 
 
 ## P.S.
